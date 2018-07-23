@@ -1,8 +1,8 @@
 class Dog
 
   @@all = [ ]
-  
-  attr_reader :name
+
+  attr_accessor :name
 
   def initialize(name)
     @name = name
